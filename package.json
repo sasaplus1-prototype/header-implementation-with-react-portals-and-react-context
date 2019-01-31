@@ -1,0 +1,17 @@
+{
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "babel --out-file ./index.js ./index.jsx",
+    "fixpack": "npx fixpack"
+  }
+}
